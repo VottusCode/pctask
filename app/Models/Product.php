@@ -18,4 +18,8 @@ class Product extends Model
     ];
 
     public $timestamps = false;
+
+    protected $casts = [
+        'visible' => 'boolean'
+    ];
 }
