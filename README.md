@@ -139,7 +139,7 @@ Response
 ### Get a specific product
 
 ```
-GET /api/product/{id}
+GET /api/products/{id}
 ```
 
 Response
@@ -159,7 +159,7 @@ Response
 ### Update a specific product
 
 ```
-PUT|PATCH /api/product/{id}
+PUT|PATCH /api/products/{id}
 ```
 ```json
 {
@@ -187,7 +187,7 @@ Response
 ### Delete a specific product
 
 ```
-DELETE /api/product/{id}
+DELETE /api/products/{id}
 ```
 
 Response
